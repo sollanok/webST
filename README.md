@@ -1,6 +1,6 @@
 # ¡ Bienvenidos a "Conectando el mundo web" !
 
-En esta semana Tec ponemos en práctica conceptos que ya tuvismos la oportunidad de conocer, temas como el el uso e importancia de Frameworks y herramientas de apoyo web, Desarrollo de componentes web que usen interfaces de programación provistas por terceros (API)
+En esta semana Tec ponemos en práctica conceptos que ya tuvismos la oportunidad de conocer, temas como el uso e importancia de Frameworks y herramientas de apoyo web, Desarrollo de componentes web que usen interfaces de programación provistas por terceros (API)
 
 ## Integrantes del Equipo 6
 
