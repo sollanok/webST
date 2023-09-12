@@ -1,7 +1,7 @@
 .Name{
     /* Este es el color del nombre de pokemon */
     color: rgb(255, 255, 255);
-    font-family:fantasy
+    font-family:fantasy;
 }
 .Image{
     /* Este es la size de la imagen del pokemon */
@@ -10,5 +10,9 @@
 .Id {
     /* Esta es la font del id */
     color: rgb(255, 255, 255);
-    font-family:fantasy
-  }
+    font-family:fantasy;
+    width:30%;
+}
+ul li:nth-child(n+4) {
+    display: none;
+}
