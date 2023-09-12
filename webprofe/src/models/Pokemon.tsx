@@ -6,6 +6,10 @@ export type Pokemon={
     sprites:Sprites
 }
 
+export type Id={
+    id:Id
+}
+
 export type AbilityOuter={
     ability:AbilityInner
 }

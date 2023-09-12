@@ -39,8 +39,9 @@ function PokemonInfo(props:PokemonInfoProps) {
     };
     return (
         <div>
-            <h1 className="Name">{props.pokemon.name}</h1>
+            <h1 className="Id">#{props.pokemon.id}</h1>
             <img className="Image" src={props.pokemon.sprites.other["official-artwork"].front_default}></img>
+            <h1 className="Name">{props.pokemon.name}</h1>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab style={{color:"white"}} label="Moves" />

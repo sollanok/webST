@@ -1,14 +1,17 @@
 .Pokedex{
-    background-color: red;
-    min-height: 400px;
-    width:80%;
+    background: linear-gradient(180deg, #FFC900 0%, #DE0000 100%);
+    background: linear-gradient(180deg, color(display-p3 1 0.8 0.0039) 0%, color(display-p3 0.7961 0.1137 0.0549) 100%);
+    height: 720px;
+    width:100%;
+    padding-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-top:200px;
-}
-.Busqueda{
-    width: 50%;
+    background-size: 100%;
+    background-size: 100%;
 }
 .Resultado{
-    width: 50%;
+    width: 60%;
+}
+.Busqueda{
+    width: 40%;
 }
