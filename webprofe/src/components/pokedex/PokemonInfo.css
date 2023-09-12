@@ -4,3 +4,6 @@
 .Image{
     width:30%;
 }
+ul li:nth-child(n+4) {
+    display: none;
+  }
