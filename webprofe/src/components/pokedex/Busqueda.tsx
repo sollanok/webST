@@ -13,7 +13,7 @@ function Busqueda(props:BusquedaProps){
     const [busqueda,setBusqueda]=useState("");
 
     useEffect(()=>{
-        console.log("Cambio el valor de busqueda y ahora es "+busqueda)
+        console.log("Cambio el valor de busqueda y ahora es "+ busqueda)
         props.changePokemonId(parseInt(busqueda))
     },[busqueda])
 

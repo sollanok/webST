@@ -29,13 +29,13 @@ function Pokedex() {
     return (
         <div className="Pokedex">
             <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                <Grid item xs={columnSize} className="Busqueda">
-                    <Busqueda searchPokemon={getPokemon} changePokemonId={selectPokemonId}></Busqueda>
-                </Grid>
                 <Grid item xs={columnSize} className="Resultado">
                     {pokemon&&
                         <PokemonInfo pokemon={pokemon}></PokemonInfo>
                     }
+                </Grid>
+                <Grid item xs={columnSize} className="Busqueda">
+                    <Busqueda searchPokemon={getPokemon} changePokemonId={selectPokemonId}></Busqueda>
                 </Grid>
             </Grid>
         </div>
