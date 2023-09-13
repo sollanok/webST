@@ -24,3 +24,8 @@
   border-radius: 10px;
   background: #00d0fb !important;
 }
+
+.Logo img {
+  width: 500px;
+  height: 200px;
+}
