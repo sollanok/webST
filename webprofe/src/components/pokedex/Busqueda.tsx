@@ -1,6 +1,9 @@
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
+import Logo from "./img/logo.png";
+import Buscador from "./img/buscar.png";
+import Borrar from "./img/borrar.png";
 
 import "./Busqueda.css";
 import { useEffect, useState } from "react";
@@ -28,6 +31,9 @@ function Busqueda(props: BusquedaProps) {
   const columnSize = 4;
   return (
     <div>
+      <div className="Logo">
+        <img src={Logo} />
+      </div>
       <div style={{ paddingTop: "20px" }}>
         <div className="Display">
           <h2>{busqueda}</h2>
@@ -98,10 +104,10 @@ function Busqueda(props: BusquedaProps) {
           className="Button"
           onClick={props.searchPokemon}
         >
-          <img src="./img/buscar.png" alt="" />
+          <img src={Buscador} />
         </Button>
         <Button variant="outlined" className="Button" onClick={clearBusqueda}>
-          <img src="./img/borrar.png" alt="" />
+          <img src={Borrar} />
         </Button>
       </div>
     </div>
