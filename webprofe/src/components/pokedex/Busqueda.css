@@ -13,16 +13,20 @@
 }
 
 .Display h2 {
-  padding: 12px;
+  padding: 20px;
 }
 
 .Buscador {
-  padding: 5px;
+  padding: 12px;
 }
 
 .Buscador .Button {
   border-radius: 10px;
   background: #00d0fb !important;
+}
+
+.Busqueda {
+  padding: 30px;
 }
 
 .Logo img {
