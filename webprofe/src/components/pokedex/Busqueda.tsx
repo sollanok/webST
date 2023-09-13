@@ -99,16 +99,26 @@ function Busqueda(props: BusquedaProps) {
         </Grid>
       </div>
       <div>
-        <Button
-          variant="outlined"
-          className="Button"
-          onClick={props.searchPokemon}
-        >
-          <img src={Buscador} />
-        </Button>
-        <Button variant="outlined" className="Button" onClick={clearBusqueda}>
-          <img src={Borrar} />
-        </Button>
+        <div className="Button-container">
+          <Grid>
+            <Button
+              variant="outlined"
+              className="Button"
+              onClick={props.searchPokemon}
+            >
+              <img src={Buscador} />
+            </Button>
+          </Grid>
+          <Grid>
+            <Button
+              variant="outlined"
+              className="Button"
+              onClick={clearBusqueda}
+            >
+              <img src={Borrar} />
+            </Button>
+          </Grid>
+        </div>
       </div>
     </div>
   );

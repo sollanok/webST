@@ -2,6 +2,7 @@
   color: rgb(0, 0, 0) !important;
   font-size: 30px !important;
   background-color: #ffc900 !important;
+  display: center !important;
 }
 
 .Display {
@@ -37,4 +38,11 @@
 .Button img {
   width: 40px;
   height: 30px;
+}
+
+.Button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 240px;
+  margin-left: 240px;
 }
