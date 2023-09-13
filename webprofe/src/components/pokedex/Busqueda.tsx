@@ -98,10 +98,10 @@ function Busqueda(props: BusquedaProps) {
           className="Button"
           onClick={props.searchPokemon}
         >
-          Buscar
+          <img src="./img/buscar.png" alt="" />
         </Button>
         <Button variant="outlined" className="Button" onClick={clearBusqueda}>
-          x
+          <img src="./img/borrar.png" alt="" />
         </Button>
       </div>
     </div>
